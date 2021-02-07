@@ -1,0 +1,40 @@
+#logo-div{
+    height: 100px;
+    margin-top: 47px;
+    background: white;
+    text-align: center;
+}
+
+#logo {
+    padding-top: 10px;
+    width: auto;
+    height: 72px;
+}
+
+#round-box {
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    background-color: white;
+    width: 482px;
+    height: 44px;
+    margin: auto;
+}
+
+
+#search-bar-div {
+    
+    margin: auto;
+}
+
+#search-bar {
+    background: white;
+    margin-top: 5px;
+    width: 427px;
+    height: 34px;
+    margin-left: 45px;
+    border: none;
+}
+
+#search-bar:focus {
+    outline: none;
+}
