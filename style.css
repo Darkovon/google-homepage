@@ -7,6 +7,7 @@
 body {
     font-family: arial, sans-serif;
     min-height: 100%;
+    position: relative;
 }
 html {
     height: 100%;
@@ -76,41 +77,48 @@ svg {
    
 }
 
+
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
 ul {
     list-style-type: none;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 9px;
     padding: 0;
     overflow: hidden;
 }
 
 li {
-    float: left;
-}
+    display: inline-block;
+} 
 
 li a {
     display: block;
     padding: 2px 10px 0px 10px;
     text-decoration: none;
     color: black;
-    font-size: 13px;
+    font-size: 14px;
     opacity: 0.75;
 }
 
-.right-side{
-    float: right;
-}
+
 
 #sign-in {
     opacity: 100%;
     background-color: #005eff;
     border: none;
     color: white;
-    font-weight: bold;
-    font-size: 13px;
-    padding: 0 12px;
+    font-size: 14px;
+    padding: 4px 24px;
     display: inline-block;
     line-height: 28px;
+    border-radius: 3px;
 }
 
 .buttons {
@@ -132,18 +140,27 @@ li a {
     font-size: 14px;
     line-height: 36px;
     border-radius: 4px;
+    padding: 0px 15px;
 }
 
 footer {
     display: flex;
-    font-size: 14px;
+    
     bottom: 0;
     left: 0;
     position: absolute;
     right: 0;
     background-color: #f2f2f2;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    
 }
+
+
 
 footer ul {
     margin-top: 0;
+    opacity: 0.75;
+    
 }
